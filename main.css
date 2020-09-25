@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(50,50,50);
+}
+
+
+/*
+Header Stuff
+*/
+#header {
+    background-color: rgb(100,50,50);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+}
+
+#logoHeader {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+}
+
+#nametag {
+    font-size: 20;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 3px;
+    left: 120px;
+}
+
+/*#menuIcon {
+    
+}*/
+
+#menuButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: 0;
+    background-image: url("assets/menuIcon.png")
+}
+
+#sidebar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 500px;
+    visibility: hidden;
+    background-color: rgb(85,35,35);
+}
+
+#linksInSidebar {
+    position: absolute;
+    left: 5%;
+    top: 80px;
+    text-align: center;
+}
+
+a {
+    color: rgb(0,0,0);
+}
+
+/*
+Main Area Stuff
+*/
+#mainArea {
+    background-color: rgb(50,50,50);
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 90%;
+}
